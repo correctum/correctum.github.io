@@ -8,6 +8,7 @@ edit_uri: edit/dev/docs/
 
 theme:
   name: material
+  logo: https://avatars.githubusercontent.com/u/261857966
   features:
     - content.action.edit
     - content.action.view
