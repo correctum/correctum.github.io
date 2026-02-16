@@ -24,3 +24,7 @@ plugins:
       slide_effect: slide
       width: 100%
       height: auto
+
+nav:
+  - Импортеры:
+    - OFD.ru: importers/ofdru.md
