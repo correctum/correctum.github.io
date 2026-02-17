@@ -1,14 +1,19 @@
-site_name: Correctum
+site_name: Корректум
 site_url: https://correctum.github.io/
-site_author: ornaras
+site_author: ООО "АТС"
 
 repo_name: correctum/docs
 repo_url: https://github.com/correctum/correctum.github.io
 edit_uri: edit/dev/docs/
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
+  language: ru
   logo: https://avatars.githubusercontent.com/u/261857966
+  favicon: https://avatars.githubusercontent.com/u/261857966
   features:
     - content.action.edit
     - content.action.view
@@ -27,5 +32,6 @@ plugins:
       height: auto
 
 nav:
+  - index.md
   - Импортеры:
     - OFD.ru: importers/ofdru.md
